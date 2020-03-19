@@ -1,0 +1,16 @@
+in a new terminal, OSX will have python 2.7.10 active
+
+**to set up anaconda environment with 2.7.12 resources:
+source activate py27 #can also deactivate
+
+**to set up anaconda environment with 3.5.2 resources:
+source activate root #can also deactivate
+
+**to get current active environment for a specific terminal session:
+conda info --envs
+
+**To update the correct environment, first activate the environment, then do
+conda update --all
+
+**NOTE: anaconda resources by default are those pretaining to anaconda3, including ipython 3.5
+if no env is set. However if nothing from anaconda is used, the system's default python is active 2.7.10
